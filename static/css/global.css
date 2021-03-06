@@ -38,3 +38,25 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
+.formContainer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formItem {
+    margin: 25px 20px 10px 20px;
+    width: 400px;
+}
+
+.formInput {
+    height: 30px;
+    min-width: 450px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
